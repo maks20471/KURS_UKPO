@@ -12,12 +12,6 @@ public class TestMain {
             Assert.assertEquals(1, t1.mRoot.mValue);
         }
     @Test
-    public void testDefaultConstructor() {
-        Main t1 = new Main();
-        Assert.assertNull(t1.mRoot);
-    }
-
-    @Test
     public void testIntegerConstructor() {
         Main t1 = new Main(1);
         Assert.assertNotNull(t1.mRoot);
